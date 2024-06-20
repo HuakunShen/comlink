@@ -5,8 +5,8 @@ name: Node.js Package
 
 on:
   push:
-    tags:
-      - "v*"
+    # tags:
+    #   - "v*"
   release:
     types: [created]
 
